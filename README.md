@@ -3,7 +3,7 @@
 
 **Descrição do Projeto**
 
-Este projeto implementa um pipeline modular, orientado a objetos, para leitura, limpeza, transformação e consolidação de dados de colaboradores, benefícios e ferramentas. O resultado final é um relatório em Excel com o custo total por colaborador.
+Este projeto possui scripts, para leitura, limpeza, transformação e consolidação de dados de colaboradores, benefícios e ferramentas. O resultado final é um relatório em Excel com o custo total por colaborador.
 
 **Estrutura do Projeto**
 
@@ -17,7 +17,7 @@ cost_calculator.py - Classe CostCalculator: calcula custo total por colaborador
 
 report_generator.py - Classe ReportGenerator: gera o relatório final em Excel
 
-main.py - Orquestra todo o pipeline chamando as classes acima
+main.py - Roda todos os scripts chamando as classes acima
 
 requirements.txt - Dependências do projeto (pandas, openpyxl)
 
